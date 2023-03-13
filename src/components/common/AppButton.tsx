@@ -1,21 +1,21 @@
+import React from 'react';
 import {
   StyleSheet,
-  TouchableOpacityProps,
-  TouchableOpacity,
   Text,
   TextProps,
+  TouchableOpacity,
+  TouchableOpacityProps,
 } from 'react-native';
-import React from 'react';
-import {PRIMARY_ACCENT, SECONDARY_ACCENT} from '../../utils';
+import {PRIMARY_ACCENT} from '../../utils';
 
 const buttonStyles = StyleSheet.create({
   // ...
   appButtonContainer: {
     elevation: 3,
     backgroundColor: PRIMARY_ACCENT,
-    borderRadius: 5,
-    paddingVertical: 5,
-    paddingHorizontal: 8,
+    borderRadius: 25,
+    paddingVertical: 6,
+    paddingHorizontal: 12,
   },
   disabled: {
     backgroundColor: 'gray',
@@ -25,6 +25,7 @@ const buttonStyles = StyleSheet.create({
     color: '#fff',
     fontWeight: 'bold',
     alignSelf: 'center',
+    justifyContent: 'center',
     textTransform: 'uppercase',
   },
 });

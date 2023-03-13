@@ -52,7 +52,6 @@ const style = StyleSheet.create({
   },
   remove: {
     backgroundColor: '#e02020',
-    borderRadius: 5,
     paddingVertical: 5,
     paddingHorizontal: 8,
     margin: 16,
@@ -60,6 +59,8 @@ const style = StyleSheet.create({
   countCont: {
     height: 25,
     width: 25,
+    paddingHorizontal: 0,
+    paddingTop: 4,
   },
   imgContainer: {width: '95%', height: '40%'},
   img: {
